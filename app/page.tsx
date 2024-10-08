@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { createClient } from 'edgedb';
+// import { createClient } from 'edgedb';
 // import e from '~/dbschema/edgeql-js';
 
 type Post = {
@@ -8,7 +8,7 @@ type Post = {
   content: string
 }
 
-const client = createClient();
+// const client = createClient();
 
 export default async function Home() {
   const posts: Post[] = [
